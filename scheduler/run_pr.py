@@ -3,7 +3,7 @@ from random import random
 import os
 
 
-lineCnt = randint(3000000, 9000000)
+lineCnt = randint(3000000, 7000000)
 dotCnt = randint(lineCnt/randint(5, 7), lineCnt/randint(1, 3))
 
 # 1. generate test data

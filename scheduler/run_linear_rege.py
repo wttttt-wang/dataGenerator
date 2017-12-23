@@ -2,8 +2,8 @@ from random import randint
 import os
 
 
-lineCnt = randint(5000000, 10000000)
-columnCnt = randint(5, 20)
+lineCnt = randint(2000000, 50000000)
+columnCnt = randint(5, 30)
 
 # 1. generate test data
 data_path = "/home/testData/linearRegre/lin1.txt"

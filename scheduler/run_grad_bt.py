@@ -25,7 +25,7 @@ driver_mem = randint(1, 8)
 exe_mem = randint(2, 8)
 exe_cores = randint(1, 5)
 # <Input> <maxIter>
-maxIter = randint(100, 5000)
+maxIter = randint(70, 700)
 
 cmd = '/home/spark-2.1.0-bin-hadoop2.6/bin/spark-submit --class JavaGradientBoostedTreeClassifierExample ' \
       '--conf "spark.executor.extraJavaOptions=-XX:+UnlockCommercialFeatures -XX:+FlightRecorder -Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.ssl=false -Dcom.sun.management.jmxremote.port=0 -Djava.util.logging.config.file=/home/spark-2.1.0-bin-hadoop2.6/conf/jmx.properties"  --conf "spark.driver.extraJavaOptions=-XX:+UnlockCommercialFeatures -XX:+FlightRecorder -Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.ssl=false -Dcom.sun.management.jmxremote.port=0 -Djava.util.logging.config.file=/home/spark-2.1.0-bin-hadoop2.6/conf/jmx.properties"  ' \

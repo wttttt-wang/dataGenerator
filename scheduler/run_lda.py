@@ -2,7 +2,7 @@ from random import randint
 import os
 
 
-lineCnt = randint(2000000, 8000000)
+lineCnt = randint(2000000, 7000000)
 columnCnt = randint(1, 30)
 classCnt = randint(5, 27)
 
@@ -26,7 +26,7 @@ exe_mem = randint(2, 8)
 exe_cores = randint(1, 5)
 # <Input> <K> <maxIter>
 k = randint(classCnt - 2, classCnt + 10)
-maxIter = randint(70, 700)
+maxIter = randint(70, 500)
 
 cmd = '/home/spark-2.1.0-bin-hadoop2.6/bin/spark-submit --class JavaLDAExample ' \
       '--conf "spark.executor.extraJavaOptions=-XX:+UnlockCommercialFeatures -XX:+FlightRecorder -Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.ssl=false -Dcom.sun.management.jmxremote.port=0 -Djava.util.logging.config.file=/home/spark-2.1.0-bin-hadoop2.6/conf/jmx.properties"  --conf "spark.driver.extraJavaOptions=-XX:+UnlockCommercialFeatures -XX:+FlightRecorder -Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.ssl=false -Dcom.sun.management.jmxremote.port=0 -Djava.util.logging.config.file=/home/spark-2.1.0-bin-hadoop2.6/conf/jmx.properties"  ' \
