@@ -1,0 +1,1 @@
+python /root/wttttt/data/dataGenerator ForLinearRegression.py
