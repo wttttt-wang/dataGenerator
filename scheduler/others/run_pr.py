@@ -9,7 +9,7 @@ def gen_data(data_path, hdfs_path):
     # 1.1 gen local data
     os.system("rm -f {0}".format(data_path))
     print 'generating testData, path: ', data_path
-    os.system("python /root/wttttt/data/dataGenerator/ForPageRank.py {0} {1} {2}"
+    os.system("python ForPageRank.py {0} {1} {2}"
               .format(data_path, lineCnt, dotCnt))
     # 1.2 copy to hdfs
     os.system("hdfs dfs -rm {0}".format(hdfs_path))

@@ -9,7 +9,7 @@ def gen_data(data_path, hdfs_path):
     # 1.1 gen local data
     os.system("rm -f {0}".format(data_path))
     print 'generating testData, path: ', data_path
-    os.system("python /root/wttttt/data/dataGenerator/ForLDA.py {0} {1} {2} {3}"
+    os.system("python ForLDA.py {0} {1} {2} {3}"
               .format(data_path, lineCnt, columnCnt, classCnt))
     # 1.2 copy to hdfs
     os.system("hdfs dfs -rm {0}".format(hdfs_path))

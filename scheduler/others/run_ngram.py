@@ -7,7 +7,7 @@ def gen_data(data_path, hdfs_path):
     # 1.1 gen local data
     os.system("rm -f {0}".format(data_path))
     print 'generating testData, path: ', data_path
-    os.system("python /root/wttttt/data/dataGenerator/For_random_words.py {0} {1}"
+    os.system("python For_random_words.py {0} {1}"
               .format(data_path, lineCnt))
     # 1.2 copy to hdfs
     os.system("hdfs dfs -rm {0}".format(hdfs_path))

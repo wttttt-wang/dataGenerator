@@ -15,7 +15,7 @@ hdfs_path2 = "/testData/join/join2.csv"
 # 1.1 gen local data
 os.system("rm -f {0}".format(data_path))
 print 'generating testData, path: ', data_path
-os.system("python /root/wttttt/data/dataGenerator/ForJoinCsv.py {0} {1} {2} {3} {4}"
+os.system("python ForJoinCsv.py {0} {1} {2} {3} {4}"
           .format(data_path, data_path2, lineCnt, lineCnt2, classCnt))
 # 1.2 copy to hdfs
 os.system("hdfs dfs -rm {0}".format(hdfs_path))
