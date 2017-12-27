@@ -31,11 +31,11 @@ def run_jar(hdfs_path):
     os.system(cmd)
 
 
-# 1. generate test data
-data_path = "/home/testData/random_forest_class1.txt"
-hdfs_path = "/testData/random_forest_class1.txt"
-gen_data(data_path, hdfs_path)
-run_jar(hdfs_path)
-
+if __name__ == "__main__":
+    # 1. generate test data
+    data_path = "/home/testData/random_forest_class1.txt"
+    hdfs_path = "/testData/random_forest_class1.txt"
+    gen_data(data_path, hdfs_path)
+    run_jar(hdfs_path)
 
 
