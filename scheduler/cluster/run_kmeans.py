@@ -37,6 +37,6 @@ def run_jar(hdfs_path):
 data_path = "/home/testData/kmeans1.txt"
 hdfs_path = "/testData/kmeans1.txt"
 gen_data(data_path, hdfs_path)
-run_jar()
+run_jar(hdfs_path)
 
 

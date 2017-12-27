@@ -35,7 +35,7 @@ def run_jar(hdfs_path):
 data_path = "/home/testData/random_forest_class1.txt"
 hdfs_path = "/testData/random_forest_class1.txt"
 gen_data(data_path, hdfs_path)
-run_jar()
+run_jar(hdfs_path)
 
 
 

@@ -35,5 +35,5 @@ hdfs_path = "/testData/lin11.txt"
 gen_data(data_path, hdfs_path)
 
 # 2. run jar
-run_jar()
+run_jar(hdfs_path)
 

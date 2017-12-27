@@ -34,6 +34,6 @@ data_path = "/home/testData/ngram1.txt"
 hdfs_path = "/testData/ngram1.txt"
 gen_data(data_path, hdfs_path)
 
-run_jar()
+run_jar(hdfs_path)
 
 

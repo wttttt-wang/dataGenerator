@@ -45,5 +45,5 @@ data_path = "/home/testData/pageRank/pr1.txt"
 hdfs_path = "/testData/pageRank/pr1.txt"
 gen_data(data_path, hdfs_path)
 
-run_jar()
+run_jar(hdfs_path)
 
