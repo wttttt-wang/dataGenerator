@@ -1,4 +1,4 @@
-# like sample_linear_regression_data.txt
+# like sample_lda_libsvm_data.txt
 
 import random
 import sys
@@ -6,9 +6,8 @@ import sys
 
 def generate(fileName, columnNum, lineCnt, classNum):
     with open(fileName, 'w') as fi:
-        for i in range(1, lineCnt):
-            class_type = random.randint(1, classNum)
-            line = "{0} ".format(class_type)
+        for i in range(lineCnt):
+            line = "{0} ".format(i)
             for j in range(1, columnNum + 1):
                 line += "{0}:{1} ".format(j, random.randint(1, classNum))
             fi.write(line + "\n")
