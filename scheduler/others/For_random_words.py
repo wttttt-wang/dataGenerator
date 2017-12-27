@@ -15,6 +15,6 @@ def generate(fileName, lineCnt):
 
 
 out1 = sys.argv[1] if len(sys.argv) >= 2 else 'words.txt'
-lineCnt1 = int(sys.argv[3]) if len(sys.argv) >= 4 else 100
+lineCnt1 = int(sys.argv[2]) if len(sys.argv) >= 3 else 100
 
 generate(out1, lineCnt1)

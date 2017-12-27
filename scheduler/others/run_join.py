@@ -7,10 +7,10 @@ lineCnt2 = randint(2000000, 10000000)
 classCnt = randint(5, 27)
 
 # 1. generate test data
-data_path = "/home/testData/join/join1.csv"
-data_path2 = "/home/testData/join/join2.csv"
-hdfs_path = "/testData/join/join1.csv"
-hdfs_path2 = "/testData/join/join2.csv"
+data_path = "/home/testData/join1.csv"
+data_path2 = "/home/testData/join2.csv"
+hdfs_path = "/testData/join1.csv"
+hdfs_path2 = "/testData/join2.csv"
 
 # 1.1 gen local data
 os.system("rm -f {0}".format(data_path))
