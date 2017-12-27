@@ -3,14 +3,14 @@ import os
 
 
 def gen_data(data_path, hdfs_path):
-    lineCnt = randint(3000000, 9000000)
-    columnCnt = randint(1, 30)
-    classCnt = randint(5, 27)
+    lineCnt = randint(7000000, 30000000)
+    columnCnt = randint(5, 30)
+    typeNum = randint(10, 200)
     # 1.1 gen local data
     os.system("rm -f {0}".format(data_path))
     print 'generating testData, path: ', data_path
-    os.system("python /root/wttttt/data/dataGenerator/ForCluster.py {0} {1} {2} {3}"
-              .format(data_path, lineCnt, columnCnt, classCnt))
+    os.system("python /root/wttttt/data/dataGenerator/For_2_classify.py {0} {1} {2} {3}"
+              .format(data_path, lineCnt, columnCnt, typeNum))
     # 1.2 copy to hdfs
     os.system("hdfs dfs -rm {0}".format(hdfs_path))
     print 'copying to hdfs, path: ', hdfs_path
