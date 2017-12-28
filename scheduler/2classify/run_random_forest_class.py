@@ -3,7 +3,7 @@ import os
 
 
 def gen_data(data_path, hdfs_path):
-    lineCnt = randint(7000000, 30000000)
+    lineCnt = randint(5000000, 10000000)
     columnCnt = randint(5, 30)
     typeNum = randint(10, 200)
     # 1.1 gen local data

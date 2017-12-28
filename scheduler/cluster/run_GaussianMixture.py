@@ -22,9 +22,9 @@ def run_jar(hdfs_path):
     exe_mem = randint(2, 8)
     exe_cores = randint(1, 5)
     # <Input> <maxIter>
-    k = randint(17, 77)
+    k = randint(16, 87)
 
-    cmd = '/home/spark-2.1.0-bin-hadoop2.6/bin/spark-submit --class JavaKMeansExam ' \
+    cmd = '/home/spark-2.1.0-bin-hadoop2.6/bin/spark-submit --class JavaGaussianMixtureExample ' \
           '--conf "spark.executor.extraJavaOptions=-XX:+UnlockCommercialFeatures -XX:+FlightRecorder -Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.ssl=false -Dcom.sun.management.jmxremote.port=0 -Djava.util.logging.config.file=/home/spark-2.1.0-bin-hadoop2.6/conf/jmx.properties"  --conf "spark.driver.extraJavaOptions=-XX:+UnlockCommercialFeatures -XX:+FlightRecorder -Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.ssl=false -Dcom.sun.management.jmxremote.port=0 -Djava.util.logging.config.file=/home/spark-2.1.0-bin-hadoop2.6/conf/jmx.properties"  ' \
           '--master yarn --deploy-mode cluster  --driver-memory {0}g  --executor-memory {1}g   ' \
           '--executor-cores {2} ~/wttttt/spark-examples/spark-examples-2.0-SNAPSHOT.jar {3} {4}' \
@@ -35,8 +35,8 @@ def run_jar(hdfs_path):
 
 if __name__ == "__main__":
     # 1. generate test data
-    data_path = "/home/testData/kmeans1.txt"
-    hdfs_path = "/testData/kmeans1.txt"
+    data_path = "/home/testData/kmeans111.txt"
+    hdfs_path = "/testData/kmeans1111.txt"
     gen_data(data_path, hdfs_path)
     run_jar(hdfs_path)
 
