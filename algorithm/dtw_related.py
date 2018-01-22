@@ -24,3 +24,4 @@ y = [0] * 5 + x
 x = array(x).reshape(-1, 1)
 y = array(y).reshape(-1, 1)
 dist, cost, acc, path = dtw(x, y, dist=lambda x, y: norm(x - y, ord=1))
+print dist, cost, acc, path
