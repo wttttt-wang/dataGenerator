@@ -1,7 +1,8 @@
-import algorithm.series_normalization as series_norm
+from dtw import dtw
 from numpy import *
 from numpy.linalg import *
-from dtw import dtw
+
+import algorithm.Preprocess.series_normalization as series_norm
 from algorithm.distance import frechet_dis
 from algorithm.distance import hausdorff_dis
 
