@@ -1,14 +1,15 @@
 # -*- coding:utf-8 -*-
-from statsmodels.tsa.stattools import adfuller
-import pandas as pd
-import matplotlib.pyplot as plt
-from mysql import readData
-import MySQLdb
-from statsmodels.tsa.arima_model import ARMA
-import numpy as np
-from statsmodels.tsa.arima_model import ARIMA
-from algorithm.series_normalization import *
 import sys
+
+import MySQLdb
+import matplotlib.pyplot as plt
+import pandas as pd
+from statsmodels.tsa.arima_model import ARIMA
+from statsmodels.tsa.arima_model import ARMA
+from statsmodels.tsa.stattools import adfuller
+
+from algorithm.Preprocess.series_normalization import *
+from mysql import readData
 
 
 def test_stationarity(timeseries):

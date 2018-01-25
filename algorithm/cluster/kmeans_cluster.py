@@ -16,6 +16,10 @@ class KMeansClassifier:
         self._labels = None
         self._sse = None
         self._dis_metrics = dis_metrics
+        self._centroids = []
+
+    def get_centroids(self):
+        return self._centroids
 
     def _calEDist(self, arrA, arrB):
         """
@@ -207,5 +211,5 @@ class biKMeansClassifier:
 
 if __name__ == "__main__":
     test = KMeansClassifier()
-    print test._calEDist(np.array([1, 2, 3]), np.array([2, 2, 2]))
-    print test._calDtwDict(np.array([1, 2, 3]), np.array([2, 2, 2]))
+    jobs = []
+    test.fit(np.array(jobs))
