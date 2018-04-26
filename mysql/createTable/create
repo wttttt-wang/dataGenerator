@@ -1,0 +1,39 @@
+CREATE TABLE IF NOT EXISTS `core_spark_jobs` (
+  `id` bigint(20) NOT NULL AUTO_INCREMENT,
+  `start_time` timestamp NULL DEFAULT '0000-00-00 00:00:00',
+  `update_time` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  `finish_time` timestamp NULL,
+  `yarn_id` varchar(128) DEFAULT NULL,
+  `streaming_name` varchar(128) DEFAULT NULL,
+  `streaming_id` int DEFAULT NULL,
+  `user` varchar(128) DEFAULT NULL,
+  `state` varchar(128) DEFAULT NULL,
+  `AM_URL`  varchar(256) DEFAULT NULL,
+  `runningContainerNumber` int,
+  `extras` mediumtext,
+`inputSize` bigint(20),
+`driverMem` int,
+`exeNum` int,
+`exeCores` int,
+`exeMem` int,
+`envirStr` varchar(256),
+  PRIMARY KEY (`id`)
+);
+
+
+
+CREATE TABLE IF NOT EXISTS `core_job_container_info` (`appId` varchar(255), `hostname` varchar(255), `isDriver` boolean, `jmxUrl` varchar(255), `isExpired` boolean default false, `containerId` varchar(255))
+
+
+CREATE TABLE IF NOT EXISTS `core_job_jmx_metrics` (`containerId` varchar(255), `ts` datetime, `ProcessCpuTime` bigint, `usedHeapMem` bigint, `initHeapMem` bigint, `CMSCollectionCount` bigint, `OpenFileDescriptorCount` bigint, `CMSCollectionTime` bigint, `ParNewCollectionCount` bigint, `ParNewCollectionTime` bigint, `SystemCpuLoad` double, `ProcessCpuLoad` double, `ThreadCount` int, `DaemonThreadCount` int,`maxHeapMem` bigint)
+
+
+CREATE TABLE IF NOT EXISTS `core_streaming_jobs` (
+  `id` int NOT NULL AUTO_INCREMENT,
+  `start_time` timestamp NULL DEFAULT '0000-00-00 00:00:00',
+  `update_time` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  `streaming_name` varchar(128) DEFAULT NULL,
+  `running_jobs` mediumtext DEFAULT NULL,
+  `extras` mediumtext,
+  PRIMARY KEY (`id`)
+);

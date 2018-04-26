@@ -2,7 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="83950e25-e3a2-4ad3-bbd9-6a98333065da" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysql/createTable/create" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scheduler/cronJob" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/algorithm/regression/regression_algos.py" afterPath="$PROJECT_DIR$/algorithm/regression/regression_algos.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/algorithm/run_algo.py" afterPath="$PROJECT_DIR$/algorithm/run_algo.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/algorithm/simpletrial.py" afterPath="$PROJECT_DIR$/algorithm/simpletrial.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysql/readData.py" afterPath="$PROJECT_DIR$/mysql/readData.py" />
     </list>
     <ignored path="$PROJECT_DIR$/.idea/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,10 +24,10 @@
     <SUITE FILE_PATH="coverage/dataGenerator$data_similarity.coverage" NAME="data_similarity Coverage Results" MODIFIED="1515312423123" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithm" />
     <SUITE FILE_PATH="coverage/dataGenerator$series_normalization.coverage" NAME="series_normalization Coverage Results" MODIFIED="1516710337783" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithm/Preprocess" />
     <SUITE FILE_PATH="coverage/dataGenerator$plot_data.coverage" NAME="plot_data Coverage Results" MODIFIED="1516363526209" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithm" />
-    <SUITE FILE_PATH="coverage/dataGenerator$simpletrial.coverage" NAME="simpletrial Coverage Results" MODIFIED="1516794162748" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithm" />
+    <SUITE FILE_PATH="coverage/dataGenerator$simpletrial.coverage" NAME="simpletrial Coverage Results" MODIFIED="1517146207439" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithm" />
     <SUITE FILE_PATH="coverage/dataGenerator$curve_sim.coverage" NAME="curve_sim Coverage Results" MODIFIED="1515299245496" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithm" />
     <SUITE FILE_PATH="coverage/dataGenerator$statistics_features.coverage" NAME="statistics_features Coverage Results" MODIFIED="1516286179384" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithm/timeseries" />
-    <SUITE FILE_PATH="coverage/dataGenerator$run_algo.coverage" NAME="run_algo Coverage Results" MODIFIED="1516871162580" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithm" />
+    <SUITE FILE_PATH="coverage/dataGenerator$run_algo.coverage" NAME="run_algo Coverage Results" MODIFIED="1524745699987" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithm" />
     <SUITE FILE_PATH="coverage/dataGenerator$svr.coverage" NAME="svr Coverage Results" MODIFIED="1516869570869" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithm/regression" />
     <SUITE FILE_PATH="coverage/dataGenerator$readData.coverage" NAME="readData Coverage Results" MODIFIED="1516712110336" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mysql" />
     <SUITE FILE_PATH="coverage/dataGenerator$kmeans_cluster.coverage" NAME="kmeans_cluster Coverage Results" MODIFIED="1515399194392" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithm/cluster" />
@@ -37,46 +43,14 @@
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
-  <component name="DockManager">
-    <window id="1">
-      <content type="file-editors">
-        <state>
-          <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-            <file leaf-file-name="simpletrial.py" pinned="false" current-in-tab="false">
-              <entry file="file://$PROJECT_DIR$/algorithm/simpletrial.py">
-                <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="110">
-                    <caret line="5" column="20" lean-forward="false" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
-                    <folding>
-                      <element signature="e#0#43#0" expanded="true" />
-                    </folding>
-                  </state>
-                </provider>
-              </entry>
-            </file>
-            <file leaf-file-name="regression_algos.py" pinned="false" current-in-tab="true">
-              <entry file="file://$PROJECT_DIR$/algorithm/regression/regression_algos.py">
-                <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="476">
-                    <caret line="30" column="14" lean-forward="false" selection-start-line="30" selection-start-column="4" selection-end-line="30" selection-end-column="14" />
-                    <folding />
-                  </state>
-                </provider>
-              </entry>
-            </file>
-          </leaf>
-        </state>
-      </content>
-    </window>
-  </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
       <file leaf-file-name="readData.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mysql/readData.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="648">
-              <caret line="186" column="42" lean-forward="true" selection-start-line="186" selection-start-column="42" selection-end-line="186" selection-end-column="42" />
+            <state relative-caret-position="318">
+              <caret line="108" column="4" lean-forward="false" selection-start-line="108" selection-start-column="4" selection-end-line="108" selection-end-column="4" />
               <folding>
                 <element signature="e#229#547#0" expanded="false" />
                 <element signature="e#454#532#0" expanded="false" />
@@ -94,23 +68,33 @@
                 <element signature="e#2696#3089#0" expanded="false" />
                 <element signature="e#2881#3073#0" expanded="false" />
                 <element signature="e#2984#3073#0" expanded="false" />
-                <element signature="e#4558#5593#0" expanded="false" />
-                <element signature="e#4657#5466#0" expanded="false" />
-                <element signature="e#4711#5027#0" expanded="false" />
-                <element signature="e#4743#4975#0" expanded="false" />
-                <element signature="e#4875#4975#0" expanded="false" />
-                <element signature="e#5099#5466#0" expanded="false" />
-                <element signature="e#5137#5466#0" expanded="false" />
-                <element signature="e#5172#5416#0" expanded="false" />
-                <element signature="e#5306#5416#0" expanded="false" />
-                <marker date="1516867499000" expanded="false" signature="236:297" ph="select yarn_... missing_value" />
-                <marker date="1516867499000" expanded="false" signature="601:669" ph="select yarn_... core_spark_jobs" />
-                <marker date="1516867499000" expanded="false" signature="894:959" ph="select conta... missing_value" />
-                <marker date="1516867499000" expanded="true" signature="1225:1277" ph="select missi... missing_value" />
-                <marker date="1516867499000" expanded="true" signature="3637:3741" ph="select conta... core_job_container_info" />
-                <marker date="1516867499000" expanded="true" signature="3643:3678" ph="select conta... core_job_container_info" />
-                <marker date="1516867499000" expanded="true" signature="4094:4146" ph="select missi... missing_value" />
+                <element signature="e#4550#5585#0" expanded="false" />
+                <element signature="e#4649#5458#0" expanded="false" />
+                <element signature="e#4703#5019#0" expanded="false" />
+                <element signature="e#4735#4967#0" expanded="false" />
+                <element signature="e#4867#4967#0" expanded="false" />
+                <element signature="e#5091#5458#0" expanded="false" />
+                <element signature="e#5129#5458#0" expanded="false" />
+                <element signature="e#5164#5408#0" expanded="false" />
+                <element signature="e#5298#5408#0" expanded="false" />
+                <marker date="1517142712000" expanded="true" signature="236:297" ph="select yarn_... missing_value" />
+                <marker date="1517142712000" expanded="true" signature="601:669" ph="select yarn_... core_spark_jobs" />
+                <marker date="1517142712000" expanded="true" signature="894:959" ph="select conta... missing_value" />
+                <marker date="1517142712000" expanded="true" signature="1225:1277" ph="select missi... missing_value" />
+                <marker date="1517142712000" expanded="true" signature="3141:3289" ph="select yarn_... " />
+                <marker date="1517142712000" expanded="true" signature="3668:3772" ph="select conta... missing_value" />
+                <marker date="1517142712000" expanded="true" signature="4125:4177" ph="select missi... missing_value" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="regression_algos.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/algorithm/regression/regression_algos.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="462">
+              <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -118,50 +102,30 @@
       <file leaf-file-name="run_algo.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/algorithm/run_algo.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="448">
-              <caret line="90" column="63" lean-forward="false" selection-start-line="90" selection-start-column="63" selection-end-line="90" selection-end-column="63" />
+            <state relative-caret-position="396">
+              <caret line="80" column="24" lean-forward="false" selection-start-line="80" selection-start-column="20" selection-end-line="80" selection-end-column="24" />
               <folding>
-                <element signature="e#0#28#0" expanded="true" />
+                <element signature="e#396#2266#0" expanded="false" />
+                <element signature="e#686#969#0" expanded="false" />
+                <element signature="e#728#969#0" expanded="false" />
+                <element signature="e#1043#1058#0" expanded="false" />
+                <element signature="e#1112#1178#0" expanded="false" />
+                <element signature="e#1283#1301#0" expanded="false" />
+                <element signature="e#1677#1704#0" expanded="false" />
+                <element signature="e#1854#2251#0" expanded="false" />
+                <element signature="e#1984#2227#0" expanded="false" />
+                <element signature="e#2869#3129#0" expanded="false" />
+                <element signature="e#3279#3450#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="generailized_linear.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/algorithm/regression/generailized_linear.py">
+      <file leaf-file-name="backend_bases.py" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/software/anaconda2/lib/python2.7/site-packages/matplotlib/backend_bases.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="decision_tree_reg.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/algorithm/regression/decision_tree_reg.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="plot_data.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/algorithm/Preprocess/plot_data.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="404">
-              <caret line="35" column="48" lean-forward="false" selection-start-line="35" selection-start-column="34" selection-end-line="35" selection-end-column="48" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="clustering.py" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/software/anaconda2/lib/python2.7/site-packages/tslearn/clustering.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15268">
-              <caret line="706" column="0" lean-forward="false" selection-start-line="706" selection-start-column="0" selection-end-line="706" selection-end-column="0" />
+            <state relative-caret-position="157">
+              <caret line="184" column="0" lean-forward="false" selection-start-line="184" selection-start-column="0" selection-end-line="184" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -178,8 +142,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>dfs</find>
-      <find>hdfs dfs</find>
       <find>hdfs dfs -rm</find>
       <find>file</find>
       <find>lineCnt</find>
@@ -208,6 +170,8 @@
       <find>self._centroids</find>
       <find>-&gt;</find>
       <find>print</find>
+      <find>get_app_confs</find>
+      <find>cont2ind</find>
     </findStrings>
     <replaceStrings>
       <replace>series</replace>
@@ -219,8 +183,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/scheduler/cluster/run_grad_bt.py" />
-        <option value="$PROJECT_DIR$/scheduler/others/For_random_words.py" />
         <option value="$PROJECT_DIR$/scheduler/multi-classify/For_multi_class.py" />
         <option value="$PROJECT_DIR$/scheduler/multi-classify/run_multi_class.py" />
         <option value="$PROJECT_DIR$/mysql/__init__.py" />
@@ -255,20 +217,22 @@
         <option value="$PROJECT_DIR$/scheduler/2classify/run_decision_tree_2class.py" />
         <option value="$PROJECT_DIR$/scheduler/cluster/run_GaussianMixture.py" />
         <option value="$PROJECT_DIR$/scheduler/cluster/run_gmm.py" />
-        <option value="$PROJECT_DIR$/scheduler/regression/run_regression.py" />
         <option value="$PROJECT_DIR$/algorithm/data_similarity.py" />
         <option value="$PROJECT_DIR$/algorithm/Preprocess/series_normalization.py" />
         <option value="$PROJECT_DIR$/algorithm/cluster/__init__.py" />
         <option value="$PROJECT_DIR$/algorithm/cluster/ts_kmeans.py" />
         <option value="$PROJECT_DIR$/algorithm/cluster/kmeans_cluster.py" />
-        <option value="$PROJECT_DIR$/algorithm/simpletrial.py" />
-        <option value="$PROJECT_DIR$/mysql/readData.py" />
         <option value="$PROJECT_DIR$/algorithm/classification/run_classification.py" />
         <option value="$PROJECT_DIR$/algorithm/regression/generailized_linear.py" />
         <option value="$PROJECT_DIR$/algorithm/regression/decision_tree_reg.py" />
         <option value="$PROJECT_DIR$/algorithm/regression/svr.py" />
-        <option value="$PROJECT_DIR$/algorithm/regression/regression_algos.py" />
         <option value="$PROJECT_DIR$/algorithm/regression/__init__.py" />
+        <option value="$PROJECT_DIR$/mysql/readData.py" />
+        <option value="$PROJECT_DIR$/algorithm/regression/regression_algos.py" />
+        <option value="$PROJECT_DIR$/algorithm/simpletrial.py" />
+        <option value="$PROJECT_DIR$/scheduler/cronJob" />
+        <option value="$PROJECT_DIR$/mysql/createTable/create" />
+        <option value="$PROJECT_DIR$/scheduler/regression/run_regression.py" />
         <option value="$PROJECT_DIR$/algorithm/run_algo.py" />
       </list>
     </option>
@@ -301,6 +265,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -338,7 +303,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="algorithm" />
+              <option name="myItemId" value="mysql" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mysqlData" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -353,34 +322,11 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="algorithm" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="regression" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dataGenerator" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dataGenerator" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="algorithm" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Preprocess" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -722,9 +668,9 @@
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="Python.run_algo" />
-        <item index="1" class="java.lang.String" itemvalue="Python.svr" />
-        <item index="2" class="java.lang.String" itemvalue="Python.run_classification" />
-        <item index="3" class="java.lang.String" itemvalue="Python.simpletrial" />
+        <item index="1" class="java.lang.String" itemvalue="Python.simpletrial" />
+        <item index="2" class="java.lang.String" itemvalue="Python.svr" />
+        <item index="3" class="java.lang.String" itemvalue="Python.run_classification" />
         <item index="4" class="java.lang.String" itemvalue="Python.readData" />
       </list>
     </recent_temporary>
@@ -744,17 +690,17 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Debug Logs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33663365" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26746988" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26746988" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Execute Anonymous" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14020029" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15164521" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -791,113 +737,29 @@
           <option name="timeStamp" value="9" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/mysql/readData.py</url>
-          <line>145</line>
-          <option name="timeStamp" value="15" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/algorithm/classification/run_classification.py</url>
           <line>58</line>
           <option name="timeStamp" value="16" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/algorithm/run_algo.py</url>
+          <line>64</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/algorithm/run_algo.py</url>
+          <line>88</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="17" />
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+      <option name="time" value="27" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/software/anaconda2/lib/python2.7/site-packages/dtw.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="3" column="4" lean-forward="false" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm/timeseries/wavelet_trans.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm/timeseries/fft_try.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="5" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/software/anaconda2/lib/python2.7/site-packages/scipy/stats/stats.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1276">
-          <caret line="939" column="9" lean-forward="false" selection-start-line="939" selection-start-column="9" selection-end-line="939" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm/timeseries/statistics_features.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm/timeseries/arma_try.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" column="17" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scheduler/regression/ForLDA.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="18" column="29" lean-forward="false" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scheduler/regression/ForLinearRegression.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
-          <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scheduler/2classify/run_grad_bt.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="27" column="57" lean-forward="true" selection-start-line="27" selection-start-column="57" selection-end-line="27" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scheduler/regression/run_random_forest_reg.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="26" column="72" lean-forward="false" selection-start-line="26" selection-start-column="72" selection-end-line="26" selection-end-column="72" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scheduler/multi-classify/run_MultilayerPerceptronClassifier.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="28" column="72" lean-forward="false" selection-start-line="28" selection-start-column="72" selection-end-line="28" selection-end-column="72" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scheduler/regression/run_JavaModelSelectionViaTrainValidationSplit.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="26" column="72" lean-forward="false" selection-start-line="26" selection-start-column="72" selection-end-line="26" selection-end-column="72" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scheduler/regression/run_dt_reg.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="25" column="72" lean-forward="false" selection-start-line="25" selection-start-column="72" selection-end-line="25" selection-end-column="72" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/scheduler/2classify/run_random_forest_class.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="217">
@@ -989,13 +851,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scheduler/regression/ForRegression.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/algorithm/distance/dtw_related.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="308">
@@ -1007,20 +862,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
           <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scheduler/regression/run_linear_rege.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scheduler/regression/run_regression.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -1038,24 +879,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/software/anaconda2/lib/python2.7/site-packages/sklearn/utils/validation.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="201">
-          <caret line="432" column="0" lean-forward="false" selection-start-line="432" selection-start-column="0" selection-end-line="432" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/algorithm/cluster/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm/cluster/ts_kmeans.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="55" column="0" lean-forward="false" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -1084,57 +911,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15268">
           <caret line="706" column="0" lean-forward="false" selection-start-line="706" selection-start-column="0" selection-end-line="706" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm/Preprocess/plot_data.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="404">
-          <caret line="35" column="48" lean-forward="false" selection-start-line="35" selection-start-column="34" selection-end-line="35" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm/regression/generailized_linear.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm/regression/decision_tree_reg.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm/regression/svr.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithm/regression/svr.py" />
     <entry file="file://$USER_HOME$/software/anaconda2/lib/python2.7/site-packages/sklearn/datasets/samples_generator.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="443">
           <caret line="73" column="18" lean-forward="true" selection-start-line="73" selection-start-column="18" selection-end-line="73" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm/simpletrial.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" column="20" lean-forward="false" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
-          <folding>
-            <element signature="e#0#43#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1143,7 +927,7 @@
         <state relative-caret-position="396">
           <caret line="62" column="0" lean-forward="true" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
           <folding>
-            <element signature="e#817#835#0" expanded="true" />
+            <element signature="e#817#835#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1152,14 +936,173 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/software/anaconda2/lib/python2.7/site-packages/sklearn/svm/classes.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="851" column="0" lean-forward="false" selection-start-line="851" selection-start-column="0" selection-end-line="851" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/software/anaconda2/lib/python2.7/site-packages/sklearn/utils/validation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="120" column="9" lean-forward="true" selection-start-line="120" selection-start-column="9" selection-end-line="120" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scheduler/cronJob">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="19" lean-forward="false" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithm/regression/generailized_linear.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithm/regression/decision_tree_reg.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithm/Preprocess/plot_data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="17" lean-forward="false" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#19#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clusterData.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scheduler/regression/run_linear_rege.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="23" column="21" lean-forward="false" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scheduler/regression/ForRegression.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="7" column="25" lean-forward="false" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mysql/createTable/create">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="20" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scheduler.gz">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="2" lean-forward="false" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scheduler/regression/run_regression.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scheduler/regression/run_dt_reg.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="25" column="72" lean-forward="false" selection-start-line="25" selection-start-column="72" selection-end-line="25" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scheduler/regression/ForLinearRegression.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="13" column="24" lean-forward="true" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/software/anaconda2/lib/python2.7/site-packages/MySQLdb/connections.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="192" column="0" lean-forward="false" selection-start-line="192" selection-start-column="0" selection-end-line="192" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithm/simpletrial.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" column="19" lean-forward="false" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/software/anaconda2/lib/python2.7/site-packages/matplotlib/pyplot.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69872">
+          <caret line="3227" column="4" lean-forward="false" selection-start-line="3227" selection-start-column="4" selection-end-line="3227" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/software/anaconda2/lib/python2.7/site-packages/sklearn/tree/tree.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23342">
+          <caret line="1089" column="32" lean-forward="false" selection-start-line="1089" selection-start-column="26" selection-end-line="1089" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/software/anaconda2/lib/python2.7/site-packages/sklearn/svm/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1914">
+          <caret line="107" column="0" lean-forward="false" selection-start-line="107" selection-start-column="0" selection-end-line="107" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithm/cluster/ts_kmeans.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="5" column="25" lean-forward="false" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mysql/mysqlData/input0426">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="16" lean-forward="true" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/software/anaconda2/lib/python2.7/site-packages/matplotlib/backend_bases.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="184" column="0" lean-forward="false" selection-start-line="184" selection-start-column="0" selection-end-line="184" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/mysql/readData.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="648">
-          <caret line="186" column="42" lean-forward="true" selection-start-line="186" selection-start-column="42" selection-end-line="186" selection-end-column="42" />
+        <state relative-caret-position="318">
+          <caret line="108" column="4" lean-forward="false" selection-start-line="108" selection-start-column="4" selection-end-line="108" selection-end-column="4" />
           <folding>
             <element signature="e#229#547#0" expanded="false" />
             <element signature="e#454#532#0" expanded="false" />
@@ -1177,40 +1120,50 @@
             <element signature="e#2696#3089#0" expanded="false" />
             <element signature="e#2881#3073#0" expanded="false" />
             <element signature="e#2984#3073#0" expanded="false" />
-            <element signature="e#4558#5593#0" expanded="false" />
-            <element signature="e#4657#5466#0" expanded="false" />
-            <element signature="e#4711#5027#0" expanded="false" />
-            <element signature="e#4743#4975#0" expanded="false" />
-            <element signature="e#4875#4975#0" expanded="false" />
-            <element signature="e#5099#5466#0" expanded="false" />
-            <element signature="e#5137#5466#0" expanded="false" />
-            <element signature="e#5172#5416#0" expanded="false" />
-            <element signature="e#5306#5416#0" expanded="false" />
-            <marker date="1516867499000" expanded="false" signature="236:297" ph="select yarn_... missing_value" />
-            <marker date="1516867499000" expanded="false" signature="601:669" ph="select yarn_... core_spark_jobs" />
-            <marker date="1516867499000" expanded="false" signature="894:959" ph="select conta... missing_value" />
-            <marker date="1516867499000" expanded="true" signature="1225:1277" ph="select missi... missing_value" />
-            <marker date="1516867499000" expanded="true" signature="3637:3741" ph="select conta... core_job_container_info" />
-            <marker date="1516867499000" expanded="true" signature="3643:3678" ph="select conta... core_job_container_info" />
-            <marker date="1516867499000" expanded="true" signature="4094:4146" ph="select missi... missing_value" />
+            <element signature="e#4550#5585#0" expanded="false" />
+            <element signature="e#4649#5458#0" expanded="false" />
+            <element signature="e#4703#5019#0" expanded="false" />
+            <element signature="e#4735#4967#0" expanded="false" />
+            <element signature="e#4867#4967#0" expanded="false" />
+            <element signature="e#5091#5458#0" expanded="false" />
+            <element signature="e#5129#5458#0" expanded="false" />
+            <element signature="e#5164#5408#0" expanded="false" />
+            <element signature="e#5298#5408#0" expanded="false" />
+            <marker date="1517142712000" expanded="true" signature="236:297" ph="select yarn_... missing_value" />
+            <marker date="1517142712000" expanded="true" signature="601:669" ph="select yarn_... core_spark_jobs" />
+            <marker date="1517142712000" expanded="true" signature="894:959" ph="select conta... missing_value" />
+            <marker date="1517142712000" expanded="true" signature="1225:1277" ph="select missi... missing_value" />
+            <marker date="1517142712000" expanded="true" signature="3141:3289" ph="select yarn_... " />
+            <marker date="1517142712000" expanded="true" signature="3668:3772" ph="select conta... missing_value" />
+            <marker date="1517142712000" expanded="true" signature="4125:4177" ph="select missi... missing_value" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/algorithm/regression/regression_algos.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="30" column="14" lean-forward="false" selection-start-line="30" selection-start-column="4" selection-end-line="30" selection-end-column="14" />
+        <state relative-caret-position="462">
+          <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/algorithm/run_algo.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="448">
-          <caret line="90" column="63" lean-forward="false" selection-start-line="90" selection-start-column="63" selection-end-line="90" selection-end-column="63" />
+        <state relative-caret-position="396">
+          <caret line="80" column="24" lean-forward="false" selection-start-line="80" selection-start-column="20" selection-end-line="80" selection-end-column="24" />
           <folding>
-            <element signature="e#0#28#0" expanded="true" />
+            <element signature="e#396#2266#0" expanded="false" />
+            <element signature="e#686#969#0" expanded="false" />
+            <element signature="e#728#969#0" expanded="false" />
+            <element signature="e#1043#1058#0" expanded="false" />
+            <element signature="e#1112#1178#0" expanded="false" />
+            <element signature="e#1283#1301#0" expanded="false" />
+            <element signature="e#1677#1704#0" expanded="false" />
+            <element signature="e#1854#2251#0" expanded="false" />
+            <element signature="e#1984#2227#0" expanded="false" />
+            <element signature="e#2869#3129#0" expanded="false" />
+            <element signature="e#3279#3450#0" expanded="false" />
           </folding>
         </state>
       </provider>

@@ -1,0 +1,6 @@
+# (put your own initials here)echo the date to the console every
+# 15minutes between 6pm and 6am
+
+15 */1 * * * python /home/testData/generator/dataGenerator/scheduler/regression/run_regression.py > /home/testData/generator/dataGenerator/scheduler/regression/run_regression.log 2>&1
+35 */1 * * * python /home/testData/generator/dataGenerator/scheduler/2classify/run_2classify.py > /home/testData/generator/dataGenerator/scheduler/2classify/run_2classify.log 2>&1
+55 */5 * * * python /home/testData/generator/dataGenerator/scheduler/cluster/run_cluster.py > /home/testData/generator/dataGenerator/scheduler/cluster/run_cluster.log 2>&1

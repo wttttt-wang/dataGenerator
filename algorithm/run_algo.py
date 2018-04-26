@@ -16,9 +16,9 @@ def run_for_metrics(conn, column):
     data, contIds, app2conts, cont2id = contId_series(conn, column)   # labels is appId
 
     # 2. sampling
-    sample_num, skip_thre, newData = 20, 9, []
+    sample_num, skip_thre, newData = 20, 0, []
     for i in range(len(data)):
-        if len(data[i]) > skip_thre:
+        if len(data[i]) >= skip_thre:
             if len(data[i]) < sample_num:
                 newData.append(data[i] + [0] * (sample_num - len(data[i])))  # simply append 0s
             else:
@@ -61,7 +61,7 @@ def run_for_metrics(conn, column):
 
 
 if __name__ == "__main__":
-    conn = MySQLdb.connect(user='root', db='paperData')
+    conn = MySQLdb.connect(user='root', db='paperData0426')  # paperData, paperDataSmall
     type_mem = run_for_metrics(conn, 'usedHeapMem')  # usedHeapMem, ProcessCpuTime, ProcessCpuLoad
     print type_mem
     type_cpu = run_for_metrics(conn, 'ProcessCpuLoad')
@@ -72,15 +72,19 @@ if __name__ == "__main__":
     # [appId], [inputSize, driverMem, exeNum, exeCores, exeMem, type_mem, type_cpu], [execution_time]
     reg_X, reg_y, apps = [], [], []
     for row in confs:
+        if row[0] not in type_mem or row[0] not in type_cpu:
+            continue   # TODO: check what causes this
         apps.append(row[0])
         reg_y.append(row[-1])
-        reg_X.append(row[1: -1])
+        tmp = list(row[1: -1]) + [type_mem[row[0]], type_cpu[row[0]]]
+        reg_X.append(tmp)
     print 'apps: ', apps
     print 'confs input:', confs
     print 'execution time: ', reg_y
 
-    reg_x_train, reg_y_train, reg_x_test, reg_y_test = reg_X[:len(reg_X) * 9 / 10], reg_y[len(reg_X) * 9 / 10], \
-                                                       reg_X[len(reg_X) * 9 / 10:], reg_X[len(reg_y) * 9 / 10:]
+    reg_x_train, reg_y_train, reg_x_test, reg_y_test = reg_X[:len(reg_X) * 9 / 10], reg_y[:len(reg_X) * 9 / 10], \
+                                                       reg_X[len(reg_X) * 9 / 10:], reg_y[len(reg_y) * 9 / 10:]
+    print reg_x_train, reg_y_train
     print 'running svr'
     svr(reg_x_train, reg_y_train, reg_x_test, reg_y_test)
     print 'running decision_tree'

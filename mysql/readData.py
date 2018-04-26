@@ -109,7 +109,7 @@ def get_all_metrics_containerId(conn, column):
 def get_app_confs(conn):
     res = []
     sql = "select yarn_id, inputSize, driverMem, exeNum, exeCores, exeMem, (finish_time - start_time) as execTime " \
-          "from " + SPARK_JOBS_TABLE
+          "from {} where state='finished'".format(SPARK_JOBS_TABLE)
     cursor = conn.cursor()
     cursor.execute(sql)
     rows = cursor.fetchall()
@@ -139,9 +139,8 @@ def contId_series(conn, column):
         tmpRows, tmpSeries = cursor.fetchall(), []
         for r in tmpRows:
             tmpSeries.append(r[0])
-        if len(tmpSeries) > 9:
-            cont2ind[contId] = len(data)
-            data.append(tmpSeries)
+        cont2ind[contId] = len(data)
+        data.append(tmpSeries)
         # print len(tmpSeries), tmpSeries
     return data, contIds, app2cons, cont2ind
 
